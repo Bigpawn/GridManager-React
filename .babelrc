@@ -1,17 +1,7 @@
 {
     "presets": [
         "@babel/preset-react",
-        [
-            "@babel/preset-env",
-            {
-                "targets": {
-                    "chrome": "56",
-                    "firefox": "59"
-                },
-                "useBuiltIns": "entry",
-                "corejs": 3
-            }
-        ]
+        "es2015"
     ],
     "plugins": [
         "@babel/plugin-proposal-class-properties"

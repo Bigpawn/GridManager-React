@@ -18,9 +18,7 @@ const config = {
     context: srcDir,
 
 	// 入口文件配置
-	entry: {
-        js: './js/index.js'
-	},
+	entry: ["babel-polyfill", './js/index.js'],
 
 	// 配置模块如何解析
 	resolve:{

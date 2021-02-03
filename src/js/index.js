@@ -3,7 +3,7 @@ import { render, unmountComponentAtNode } from 'react-dom';
 import $gridManager, { jTool } from 'gridmanager';
 import 'gridmanager/css/gm.css';
 
-export { $gridManager, jTool };
+export { $gridManager, jTool }
 export default class ReactGridManager extends React.Component {
     constructor(props) {
         super(props);
@@ -246,4 +246,4 @@ staticList.forEach(key => {
     if (!noExtendsList.includes(key)) {
         ReactGridManager[key] = $gridManager[key];
     }
-});
+})

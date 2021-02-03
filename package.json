@@ -27,6 +27,8 @@
         "@babel/preset-react": "^7.0.0",
         "@babel/runtime": "^7.4.5",
         "babel-loader": "^8.0.6",
+        "babel-plugin-transform-regenerator": "^6.26.0",
+        "babel-polyfill": "^6.26.0",
         "clean-webpack-plugin": "1.0.1",
         "copy-webpack-plugin": "^4.5.1",
         "css-loader": "2.1.1",
@@ -40,7 +42,8 @@
         "webpack-dev-middleware": "^3.7.0"
     },
     "dependencies": {
-        "gridmanager": "^2.14.19",
+        "babel-preset-es2015": "^7.0.0-beta.3",
+        "gridmanager": "file:C:\\Users\\shang\\Desktop\\GridManager\\dist",
         "react": "^16.8.6",
         "react-dom": "^16.8.6"
     }
